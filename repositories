@@ -1,0 +1,14 @@
+mkdir ~/repositories
+
+# my repositories
+mkdir ~/repositories/mine
+cd ~/repositories/mine
+
+git clone git@github.com:floriancargoet/dotfiles.git
+
+# other repositories
+mkdir ~/repositories/theirs
+cd ~/repositories/theirs
+
+git clone https://github.com/jcorbin/zsh-git.git
+

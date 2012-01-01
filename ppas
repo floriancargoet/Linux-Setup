@@ -1,0 +1,3 @@
+#spotify
+
+echo "deb http://repository.spotify.com stable non-free" >> /etc/apt/sources.list.d/spotify.list
