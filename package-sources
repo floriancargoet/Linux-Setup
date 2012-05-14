@@ -1,0 +1,9 @@
+#spotify
+
+echo "deb http://repository.spotify.com stable non-free" >> /etc/apt/sources.list.d/spotify.list
+
+# ppas
+sudo apt-add-repository ppa:chris-lea/node.js         # node
+sudo apt-add-repository ppa:bartbes/love-unstable     # love2d
+
+
